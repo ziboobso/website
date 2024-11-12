@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<link rel="icon" type="image/x-icon" href="favicon.png">
+  <meta charset="UTF-8">
+  <title>zinobon.in</title>
+  <link href="https://fonts.googleapis.com/css?family=Asul|Rubik|Work+Sans" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800">
+			  <defs>
+			    <filter id="goo">
+			      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
+			      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 35 -15" result="goo" />
+			      <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+			    </filter>
+			  </defs>
+			</svg>
+
+<div class="page">
+	
+	<div class="page-bg">
+
+
+		<div class="noise"></div>
+	</div>
+	
+
+	
+	<div class="container">
+		<div class="child">
+			<div class="content">
+				<div>
+				<div id="button" class="HoverButton">
+					<h1 class="title">
+						Zino Bonin
+						<button id="btn" onclick="scrollToTarget()">Find out more!</button>
+					</h1>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="stamp">
+		<div class="circle">
+			<p id="circle-content"></p>
+		</div>
+	</div>
+	
+	<div class="design">
+
+	</div>
+
+	<div class="page new-section" id="target">
+		<div class="new-section-content">
+			<img style="border-radius: 50%;height: 168px;width: 175.5;transition: 0.5s ease;"src="Bewerbungsfoto.jpg" alt="Me" class="img">
+		  <h2>About me</h2>
+		  <p>Welcome to my Website. <br> I'm a teenager from 
+			I'm a teenager from Switzerland that loves to program in 
+			various languages like Python, HTML, CSS and Javascript. 
+			I'm making this website to show off my skills in hopes it can help me find an 
+			apprenticeship. You can contact me at zinobonin@gmail.com.</p>
+		</div>
+	</div>
+
+	<div class="work">
+		<div class="cards">
+			<div class="card white">
+				<p class="tip">Final Project</p>
+				<p class="second-text">
+					In the last semester of school, we had to make a final project. 
+					We were free to pick what we wanted to do. 
+					I decided to program a video game in Unreal Engine 5. 
+					I used free 3d models from online sources and coded the game.
+					 I'm really happy how it turned out. 
+					 You can check it out
+					 <a style="color: white;" class="second-text"href="https://youtu.be/T9yP5UyQ_po?si=KGALFaocYmB1FDMd">here</a>.
+				</p>
+			</div>
+			<div class="card blue">
+				<p class="tip">HTML, CSS and Javascript</p>
+				<p class="second-text">I started learning HTML back in 2022, that's 
+					also when I made my first website, you can look at it
+					<a style="color: white;" class="second-text"href="https://zinobonin.github.io/-/">here</a>.
+					The code is very <br> messy and the text is outdated. It took me about a week to make and I was really proud of it, at the time. I made this website in 2024, 
+					I hope it can help me find a apprenticeship.
+				</p>
+			</div>
+			<div class="card orange">
+				<p class="tip">Python</p>
+				<p class="second-text">
+					I learned Python back in 2020 when we were in Greece.
+					It was so hot that we didn't do anything but swim in the Ocean. 
+					That got boring after a while, so I started learning Python on an app called Mimo. 
+					It helped me learn the basics. I made some minor projects like an autoclicker and keylogger.
+				</p>
+			</div>
+			<div class="card green">
+				<p class="tip">3d Modeling</p>
+				<p class="second-text">I made my first 3d model in 2021. I created 3d animations and uploaded them to my
+					<a style="color: white;" class="second-text"href="https://youtube.com/@ziboooo?si=2d66QG7eqts99Wr4">Youtube Channel</a>.
+					I had a lot of fun making them, but I found programming more fun so I moved on to HTML coding.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		© 2024 Zino Bonin <br>
+		All rights reserverd. <br>
+		<p style="color: black;">Blank</p>
+	</footer>
+	
+	
+
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
